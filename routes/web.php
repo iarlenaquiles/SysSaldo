@@ -5,3 +5,5 @@ $this->group(['middleware' => ['auth'], 'namespace' => 'Admin'], function() {
 });
 
 $this->get('/', 'Site\SiteController@index')->name('home');
+
+Auth::routes();
