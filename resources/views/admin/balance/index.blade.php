@@ -13,7 +13,7 @@
 @section('content')
     <div class="box">
         <div class="box-header">
-            <a href="" class="btn btn-primary"><i class="fa fa-arrow-up" aria-hidden="true"></i> Recarregar</a>
+            <a href="{{ route('balance.deposit') }}" class="btn btn-primary"><i class="fa fa-arrow-up" aria-hidden="true"></i> Recarregar</a>
             <a href="" class="btn btn-danger"><i class="fa fa-arrow-down" aria-hidden="true"></i> Sacar</a>
         </div>
 

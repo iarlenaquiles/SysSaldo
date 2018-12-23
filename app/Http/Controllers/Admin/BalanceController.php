@@ -13,4 +13,9 @@ class BalanceController extends Controller
 
         return view('admin.balance.index', compact('amount'));
     }
+
+    public function deposit() {
+        
+        return view('admin.balance.deposit');
+    }
 }
